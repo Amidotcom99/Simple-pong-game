@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="homepage" class="centered">
+        <h1>Pong Game</h1>
+        <p>Select Difficulty:</p>
+        <div class="difficulty-buttons">
+            <button id="easy-btn">Easy</button>
+            <button id="medium-btn">Medium</button>
+            <button id="hard-btn">Hard</button>
+        </div>
+    </div>
+    <div id="game-container" style="display:none; flex-direction:column; align-items:center;">
+        <h1>Simple Pong Game</h1>
+        <canvas id="pong" width="800" height="500"></canvas>
+        <button id="back-btn">Back to Home</button>
+    </div>
+    <script src="game.js" defer></script>
+</body>
+</html>
